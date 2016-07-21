@@ -12,7 +12,7 @@ See `tests/<authmethod>` for examples
 ### Basic auth
  - USERNAME: 'admin'
  - PASSWORD: 'secret'
- - PRIVATE: 1 `// is true, also getting gems is protected`
+ - PRIVATE: 1 `// if true, also getting gems is protected`
 
 ### LDAP auth
  - LDAP_HOST: 'your.ldapserver.tld'
