@@ -25,5 +25,4 @@ See `tests/<authmethod>` for examples
 You are very welcome to open issues or pull-requests to contribute! Thanks
 
 # Credits
-First of all to [geminabox](https://github.com/geminabox/geminabox)
-Credits to [TigerWolf](https://github.com/TigerWolf/geminabox) and [yuri-karpovich](https://github.com/yuri-karpovich/geminabox)
+First of all to [geminabox](https://github.com/geminabox/geminabox) and also to [TigerWolf](https://github.com/TigerWolf/geminabox) and [yuri-karpovich](https://github.com/yuri-karpovich/geminabox)
