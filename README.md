@@ -1,5 +1,7 @@
 # Geminabox rubygems server
 
+A docker image to serve you as a rubygems server.
+
 Based on alpine / [geminabox](https://github.com/geminabox/geminabox), providing a configurable Docker supporting
  - no auth
  - basic auth
@@ -19,6 +21,8 @@ See `tests/<authmethod>` for examples
  - LDAP_BASE: 'ou=employees,dc=company,dc=com'
  - LDAP_USER_ID: 'uid'
 
+# Contributions
+You are very welcome to open issues or pull-requests to contribute! Thanks
 
 # Credits
 First of all to [geminabox](https://github.com/geminabox/geminabox)
