@@ -4,15 +4,17 @@ A docker image to serve you as a rubygems server.
 
 Based on alpine / [geminabox](https://github.com/geminabox/geminabox), providing a configurable Docker supporting
  - no auth
- - basic auth
- - LDAP auth
+ - basic auth (for admin and optional for the reader)
+ - LDAP auth (admin/reader is the same)
 
 ## Environment based configuration
 See `tests/<authmethod>` for examples
 ### Basic auth
- - USERNAME: 'admin'
- - PASSWORD: 'secret'
- - PRIVATE: 1 `// if true, also getting gems is protected`
+ - ADMINUSERNAME: 'adminuser'
+ - ADMINPASSWORD: 'adminpw'
+ - READERUSERNAME: 'readeruser'
+ - READERPASSWORD: 'readerpw'
+ - READ_AUTH: 1 `// if set, also getting gems is protected`
 
 ### LDAP auth
  - LDAP_HOST: 'your.ldapserver.tld'
