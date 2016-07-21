@@ -1,0 +1,14 @@
+version: '2'
+services:
+  geminabox:
+    image: eugenmayer/geminabox
+    environment:
+      USERNAME: 'testuser'
+      PASSWORD: 'testpw'
+      PRIVATE: 1
+    tty: true
+    stdin_open: true
+    volumes:
+      - /geminabox/data
+    ports:
+      - "9292:9292"

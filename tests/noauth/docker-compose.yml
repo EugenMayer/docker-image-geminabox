@@ -1,0 +1,10 @@
+version: '2'
+services:
+  geminabox:
+    image: eugenmayer/geminabox
+    tty: true
+    stdin_open: true
+    volumes:
+      - /geminabox/data
+    ports:
+      - "9292:9292"

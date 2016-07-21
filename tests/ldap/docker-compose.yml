@@ -1,0 +1,20 @@
+version: '2'
+services:
+  geminabox:
+    build:
+      context: ./
+    image: eugenmayer/geminabox
+    container_name: geminabox
+    environment:
+      LDAP_HOST: 'your'
+      LDAP_PORT: 389
+      LDAP_ENCRYPTION: 'start_tls'
+      LDAP_BASE: 'ou=employees,dc=kontextwork,dc=com'
+      LDAP_USER_ID: 'cn'
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./data:/geminabox/data
+      #- ./config:/webapps/geminabox/config
+    ports:
+      - "9292:9292"

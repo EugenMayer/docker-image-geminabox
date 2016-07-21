@@ -1,0 +1,6 @@
+version: '2'
+services:
+  geminabox:
+    build:
+      context: ./
+    image: eugenmayer/geminabox
